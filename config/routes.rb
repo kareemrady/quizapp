@@ -1,6 +1,7 @@
 Quizapp::Application.routes.draw do
   root 'quizapp#index'
   get 'about' => 'quizapp#about'
+  resources :posts
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
